@@ -35,9 +35,9 @@ To design and implement an **ultrasonic RADAR** that can detect nearby obstacles
 
 ## 🧰 Hardware Setup
 <p align="center">
-  <img src="images/setup.jpg" width="600">
+  <img src="images/setup.png" width="600">
   <br>
-  <em>Figure 1: Full hardware setup showing Arduino, servo, and ultrasonic sensor.</em>
+  <em>Figure 1: Hardware setup showing Arduino UNO, HC-SR04 sensor, servo motor, and LEDs connected for radar scanning.</em>
 </p>
 
 ---
@@ -78,11 +78,17 @@ The servo motor sweeps the sensor from 0° to 180° and back, generating a polar
 
 ---
 
-## 📊 MATLAB Visualization
+## 📡 Real-Time Radar Visualization
 <p align="center">
-  <img src="images/radar_output.png" width="600">
+  <img src="images/radar_output_1.png" width="600">
   <br>
-  <em>Figure 2: Real-time radar visualization in MATLAB.</em>
+  <em>Figure 2: MATLAB radar visualization detecting nearby obstacles in a 180° sweep.</em>
+</p>
+
+<p align="center">
+  <img src="images/radar_output_2.png" width="600">
+  <br>
+  <em>Figure 3: Live radar interface showing real-time distance mapping.</em>
 </p>
 
 ---
@@ -90,8 +96,8 @@ The servo motor sweeps the sensor from 0° to 180° and back, generating a polar
 ## 🧠 Code Availability
 The MATLAB script used for radar visualization and distance measurement is available in the `/code` folder.
 
-> ⚠️ Note: The code file was retrieved from my original eClass submission for EECS 1011.
-> It represents the version I submitted as part of my major project and may include redundant or incomplete lines from the coursework template.
+> ⚠️ Note: The code file was retrieved from my original eClass submission.  
+> It represents the version I submitted as part of my major project and may include redundant or incomplete lines.
 
 ---
 
@@ -101,13 +107,6 @@ The MATLAB script used for radar visualization and distance measurement is avail
 - MATLAB visualization updated in real time.  
 - LEDs switched between **green (safe)** and **red (object detected)**.  
 
----
-
-## 🚀 Future Enhancements
-- Expand range and resolution with multiple sensors.  
-- Add **GUI-based radar visualization** in MATLAB.  
-- Integrate **IoT connectivity** for cloud monitoring.  
-- Implement **object tracking** using angle–distance correlation.
 
 ---
 
@@ -132,6 +131,3 @@ The MATLAB script used for radar visualization and distance measurement is avail
 - [HC-SR04 Ultrasonic Sensor Guide](https://components101.com/sensors/hc-sr04-ultrasonic-sensor)  
 - [TowerPro SG90 Servo Datasheet](https://www.towerpro.com.sg/product/sg90-9g-micro-servo/)  
 - [MATLAB Arduino I/O Library](https://www.mathworks.com/help/supportpkg/arduinoio/)
-
-
-[Major_Project_Report_.docx](https://github.com/Shivammmmg/ULTRASONIC-RADAR/files/15446263/Major_Project_Report_.docx)
